@@ -1,3 +1,24 @@
 body{
-    background-color: blue;
+    background-color: #8fa6d2;
+}
+nav a{
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow";
+}
+.nav-link{
+    opacity: 0.7
+}
+.nav-link:hover {
+    opacity: 1;
+    background-color: #eee !important;
+}
+.h1{color: #cc000;}
+.p{color: #cc0000;}
+header {
+    /*Sizing of the elemnet*/
+    height: 600px;
+    width: 100%;
+    /*Set and adjust background image*/
+    background-image: url("header.jpg");
+    background-size: cover;
 }
