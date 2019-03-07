@@ -12,13 +12,54 @@ nav a{
     opacity: 1;
     background-color: #eee !important;
 }
-.h1{color: #cc000;}
-.p{color: #cc0000;}
+.h1{color: #CF2828;
+    text-align: center;
+}
+.p{color: #B3D0D4;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
 header {
     /*Sizing of the elemnet*/
-    height: 600px;
+    height: 450px;
     width: 100%;
     /*Set and adjust background image*/
-    background-image: url("header.jpg");
+    background-image: url("Background.jpg");
     background-size: cover;
+}
+.services{
+    text-align: center;
+}
+.services i{
+    /*Adjust the size and position of the icon*/
+    font-size: 30px;
+    padding: 25px 20px;
+    color: #fff;
+    background-color: #5bc0de;
+    /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    /*change the roundness of the container*/
+    border-radius: 50%;
+}
+.services span{
+    width: 200px;
+    display: inline-block;
+}
+.Pricing{
+    text-align:center;
+}
+.Pricing i{
+     /*Adjust the size and position of the icon*/
+    font-size: 30px;
+    padding: 25px 20px;
+    color: #fff;
+    background-color: #5bc0de;
+    /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    /*change the roundness of the container*/
+    border-radius: 50%;
 }
