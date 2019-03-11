@@ -15,7 +15,7 @@ nav a{
 .h1{color: #CF2828;
     text-align: center;
 }
-.p{color: #B3D0D4;
+.p{color: #B3D0D;
     text-align: center;
 }
 .btn{
@@ -62,4 +62,18 @@ header {
     height: 80px;
     /*change the roundness of the container*/
     border-radius: 50%;
+}
+section div img{
+    border-radius: 50%;
+    width: 200px;
+    height: 141px;
+}
+.contact i{
+    padding: 10px;
+}
+.contact button {
+    width: 100px;
+}
+.contact button:hover {
+    background-color: blue;
 }
